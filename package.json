@@ -1,0 +1,32 @@
+{
+  "name": "vertebra",
+  "version": "1.0.0",
+  "description": "Vue3 + TyepScript + webpack",
+  "main": "./src/main.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@vue/compiler-sfc": "^3.0.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "vue-loader": "^16.2.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "vue": "^3.0.11",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  }
+}
